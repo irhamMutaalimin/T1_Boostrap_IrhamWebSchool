@@ -1,0 +1,56 @@
+/* style.css */
+
+/* Hero section biar lebih menarik */
+.hero {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* Tombol hover */
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Footer styling */
+footer {
+  background-color: #111;
+  color: #bbb;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Card hover effect */
+.card:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Form placeholder styling */
+::placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+/* Responsif tambahan untuk hero text */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
